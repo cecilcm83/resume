@@ -16,7 +16,7 @@
 
 <body>
     <!--Barra de Navegación (menu)-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
         <a class="navbar-brand" href="#">Ceci</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,24 +41,25 @@
 
     <!--Jumbotron-->
     <div class="jumbotron text-center">
-        <h1>Soy Cecilia!</h1>
-        <h2>Soy Full Stack Web Developer</h2>
+        <h1>Cecilia!</h1>
+        <h2>Full Stack Web Developer</h2>
     </div>
     <!--Jumbotron-->
 
-    <!--Container-->
-    <div class="container">
-        <!--Sección saludo-->
-        <div class="text-center saludo">
-            <img class="img-circulo ml-auto mr-auto" src="https://via.placeholder.com/150" />
-            <h2 class="subtitulo">Hola...</h2>
-            <p>Soy un Desarrollador Web con sede en Veracruz, México. Trabajo como Full Stack Developer.</p>
-        </div>
-        <!--Sección saludo-->
-        <hr>
 
-        <!--Sección lo que yo puedo hacer-->
-        <div class="puedo-hacer">
+
+    <!--Sección saludo-->
+    <div class="container text-center saludo">
+        <img class="img-circulo ml-auto mr-auto" src="https://via.placeholder.com/150" />
+        <h2 class="subtitulo">Hola...</h2>
+        <p>Soy un Desarrollador Web con sede en Veracruz, México. Trabajo como Full Stack Developer.</p>
+    </div>
+    <!--Sección saludo-->
+    
+
+    <!--Sección lo que yo puedo hacer-->
+    <div class="container-fluid puedo-hacer">
+        <div class="container">
             <h1 class="text-center titulo">Lo que puedo hacer...</h1>
             <div class="row">
                 <div class="col-md-6 disena">
@@ -81,21 +82,21 @@
                 </div>
             </div>
         </div>
-        <!--Sección lo que yo puedo hacer-->
-        <hr>
-
-        <!--Puedo ayudar-->
-        <div class="puedo-ayudar text-center">
-            <h1>Puedo Ayudar!</h1>
-            <h2 class="subtitulo">Actualmente estoy disponible para trabajo independiente</h2>
-            <p>Si tiene un proyecto que desea comenzar, cree que necesita mi ayuda con algo o simplemente desea decir
-                hola, póngase en contacto.</p>
-            <button type="button" class="btn btn-primary btn-lg mensajeame">MENSAJEAME</button>
-        </div>
-        <!--Puedo ayudar-->
-
     </div>
-    <!--Container-->
+    <!--Sección lo que yo puedo hacer-->
+    
+
+    <!--Puedo ayudar-->
+    <div class="container puedo-ayudar text-center">
+        <h1>Puedo Ayudar!</h1>
+        <h2 class="subtitulo">Actualmente estoy disponible para trabajo independiente</h2>
+        <p>Si tiene un proyecto que desea comenzar, cree que necesita mi ayuda con algo o simplemente desea decir
+            hola, póngase en contacto.</p>
+        <button type="button" class="btn btn-primary btn-lg mensajeame">MENSAJEAME</button>
+    </div>
+    <!--Puedo ayudar-->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -109,8 +110,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <footer class="footer mt-auto py-3 bg-light text-center">
-        <div class="container-fluid">
+    <footer class="footer mt-auto py-3 bg-dark text-center">
+        <div class="container-fluid pie">
             <div class="social-media">
                 <a href="#">Linkedin</a>
                 <a href="#">GitHub</a>
