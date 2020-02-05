@@ -1,16 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Montez|Old+Standard+TT:400,700|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aladin|Berkshire+Swash|Lakki+Reddy|Sedgwick+Ave&display=swap');
+
+
+
+/*font-family: 'Berkshire Swash', cursive;
+font-family: 'Lakki Reddy', cursive;
+font-family: 'Sedgwick Ave', cursive;
+
+font-family: 'Aladin', cursive;*/
+
+
+
+/*jumbotron #0a3d62 fuente: #82ccdd*/
+/*backgroung: #fad390*/
+/*menu #0c2461 */
+
+
+body{
+    font-family: 'Open Sans', sans-serif;  
+    background-color: #fff;
+}
+
+.jumbotron{
+    /*background-color: #0a3d62 ;*/
+    background-color:#0a3d62;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    /*background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    */
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Old Standard TT', serif; 
+    color:#e58e26 
+}
+
+h1{
+    font-family: 'Old Standard TT', serif; 
+    color:#8cba51;
+}
+
+/*font-family: 'Open Sans', sans-serif;
+  font-family: 'Aclonica', sans-serif;
+  font-family: 'Old Standard TT', serif;
+  font-family: 'Montez', cursive;*/
+
 .social-media a {
     margin-left: 20px;
     margin-right: 20px;
+    color:#82ccdd;
 }
 
 /*Espaciado jumbotron*/
-
-.jumbotron h1 {
-    margin-top: 6rem;
+.jumbotron h1{
+   font-family: 'Montez', cursive;
+    /*font-family: 'Aclonica', sans-serif;*/
+    font-size: 5rem;
+    color: #82ccdd;
 }
 
 .jumbotron h2 {
     padding-bottom: 5rem;
+    /*color:#78e08f;*/
+    color:#8cba51}
+
+.navbar.bg-custom{
+    background-color: #062A44;
 }
 
 /*Espaciado saludo*/
@@ -30,8 +91,10 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
     margin: auto;
+    background-color: #f9f8ed;
+    /*background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");*/
+    background-image: url("https://www.transparenttextures.com/patterns/white-texture.png");
 }
-
 
 .disena {
     padding: 0 2rem;
@@ -41,8 +104,6 @@
 .desarrolla {
     padding: 0 2rem;
 }
-
-
 
 /*Espacido puedo hacer*/
 .puedo-ayudar {
@@ -62,6 +123,9 @@
     border-radius: 100%;
     margin-bottom: 2rem;
     display: block;
+    /*border: 3px solid #f6b93b;*/
+    max-width: 150px;
+    box-shadow: 10px 10px 5px #f8c291
 }
 
 .titulo {
@@ -76,7 +140,22 @@
 
 .mensajeame {
     margin: 5rem;
+    background-color: #3c6382;
 }
+
+p{
+    color:#0f4c75;
+}
+
+.footer{
+    color:#3c6382;
+
+}
+
+.text-muted{
+    color:#fad390;
+}
+
 
 @media (max-width:1028px) {
     .img-circulo {
